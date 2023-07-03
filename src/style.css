@@ -1,6 +1,5 @@
 body {
     background: transparent;
-    /* Make it white if you need */
     color: #fcbe24;
     padding: 0 24px;
     margin: 0;
@@ -37,7 +36,6 @@ body {
 .calc {
     height: 420px;
     width: 240px;
-    /*background: #292929;*/
     position: relative;
     border-radius: 8px;
     box-shadow: -5px -5px 20px 5px rgba(255, 255, 255, 0.08),
@@ -155,14 +153,14 @@ body {
     opacity: 1;
 }
 
-button[inTo='C']:before,
-button[inTo='<']:before,
-button[inTo='.']:before,
-button[inTo='*']:before,
-button[inTo='/']:before,
-button[inTo='+']:before,
-button[inTo='-']:before,
-button[inTo='=']:before {
+button[into='C']:before,
+button[into='<']:before,
+button[into='.']:before,
+button[into='*']:before,
+button[into='/']:before,
+button[into='+']:before,
+button[into='-']:before,
+button[into='=']:before {
     background: #ff9900;
     opacity: 0.5;
 }
